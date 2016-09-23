@@ -1,0 +1,289 @@
+body
+{
+    font-family:"Roboto";
+    background:#eee;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+
+.page-wrapper
+{
+    background:#fff;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+
+.image
+{
+    transition: background 0.3s ease;
+    transition: border 0.3s ease;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+.image > hover
+{
+    background: #eee;
+}
+
+.hero-unit
+{
+    margin-top:200px !important;
+    text-align:center !important;
+}
+
+h1
+{
+    text-shadow: 2px 2px 10px #333;
+    text-shadow: -2px -2px 10px #333;
+    color:rgba(255, 255, 255, 1);
+    font-size:45px;
+}
+
+.map-img
+{
+    margin-bottom:30px;
+    box-shadow: 2px 2px 40px #888;
+}
+
+.welcome-banner
+{
+    height:100px;
+    background:#fff;
+}
+
+.title
+{
+    margin-top:60px;
+    font-size:45px;
+    font-weight:300;
+}
+
+.welcome-title
+{
+    margin-top:60px;
+    font-size:45px;
+    font-weight:300;
+    padding-left:30px;
+}
+
+.bg 
+{
+  background-color: #001628;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+li 
+{
+  line-height: 20px;
+}
+
+
+.header-background 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-indicators 
+{
+  width: 100%;
+}
+
+body > section,
+header,
+footer 
+{
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  body > section,
+  header,
+  footer {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+img
+{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+.navbar 
+{
+  left: 0;
+  right: 0;
+}
+.navbar .brand 
+{
+  padding: 23px 0px 0px 0;
+  float: left;
+}
+
+.navbar a 
+{
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+.navbar .nav > li
+{
+  float: left;
+}
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+  background: none;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: 50% 50% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 20;
+  filter: alpha(opacity=2000);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+@media (max-width: 768px) {
+  .background {
+    -webkit-background-size: auto 200%;
+    -moz-background-size: auto 200%;
+    -o-background-size: auto 200%;
+    background-size: auto 200%;
+  }
+}
+
+.container-n
+{
+  position: absolute;
+  margin-left:30px;
+  z-index: 2;
+}
+
+.container-row 
+{
+  text-align:center;
+  font-weight:200 !important;
+}
+
+@media (max-width: 767px) {
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+.header-10 
+{
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 80px;
+  background: #fff !important;
+  color: #222222 !important;
+}
+
+.header-10 .navbar 
+{
+    float:left;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  margin: 0;
+}
+
+.header-10 .navbar .brand 
+{
+  padding-top: 25px;
+  font-size: 25px;
+  margin-top:-7px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+.header-10 .navbar .nav > li 
+{
+  margin-left: 20px;
+}
+
+.header-10 .navbar .nav > li:first-child 
+{
+  margin-left: 0;
+}
+
+.header-10 .navbar .nav > li > a 
+{
+  padding: 29px 0 27px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7f8c8d;
+  color: #999;
+  transition: color 0.5s ease;
+}
+
+.header-10 .navbar .nav > li > a:hover,
+.header-10 .navbar .nav > li > a:focus,
+.header-10 .navbar .nav > li > a.active 
+{
+  color: #6CB5FF;
+}
+
+.header-10 .navbar .nav > li.active > a 
+{
+  color: #6CB5FF;
+}
+
+.header-10 .navbar .nav > li.active > a:hover,
+.header-10 .navbar .nav > li.active > a:focus,
+.header-10 .navbar .nav > li.active > a.active 
+{
+  color: #6CB5FF;
+}
+
+.header-10-sub 
+{
+  position: relative;
+  z-index: 50;
+  height: 600px;
+  color: white;
+  text-align: center;
+}
+
+.header-10-sub .background {
+  background-image: url("../img/school.jpg");
+  opacity: 0.45;
+}
